@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1515148
- * Date: 24/02/2016
- * Time: 16:00
- */
+$numberofhobbits= 2;
+
+switch(numberofhobbies) {
+    case 1;
+        echo "1 Sad Hobbit";
+    case 2;
+        echo "1 Happy Hobbit";
+    case 3;
+        echo "3 Hobbits are a crowd";
+        break;
+    default:
+        echo "All the hobbits have gone home";
+}
