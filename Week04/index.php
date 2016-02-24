@@ -5,7 +5,7 @@
 	<body>
         <p>
           <?php
-            echo "Hello  World";
+            echo "Hello World - Morse Code is BETTER";
           ?>
 </p>
 </body>
