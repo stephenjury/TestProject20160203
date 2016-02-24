@@ -12,3 +12,4 @@ switch(numberofhobbits) {
     default:
         echo "All the hobbits have gone home";
 }
+?>
