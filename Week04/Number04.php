@@ -1,15 +1,13 @@
 <?php
-$numberofhobbits= 2;
+$my Array=array("do", "re", "mi"); //Declares the array
 
-switch(numberofhobbits) {
-    case 1;
-        echo "1 Sad Hobbit";
-    case 2;
-        echo "1 Happy Hobbit";
-    case 3;
-        echo "3 Hobbits are a crowd";
-        break;
-    default:
-        echo "All the hobbits have gone home";
-}
+echo $myArray[0] //outputs "do"
+
+$myArray[1] = "la"; //modifies position 1 (re)
+
+echo $myArray[1] /*outputs "la" */
+
+unset($myArray[2]); // removes the array in position 2
+
+
 ?>
