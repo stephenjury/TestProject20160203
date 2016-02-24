@@ -1,7 +1,7 @@
 <?php
 $numberofhobbits= 2;
 
-switch(numberofhobbies) {
+switch(numberofhobbits) {
     case 1;
         echo "1 Sad Hobbit";
     case 2;
