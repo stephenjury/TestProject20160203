@@ -1,4 +1,5 @@
 <?php
+/*
 $oldgit = 65;
 $myage= $oldgit;
 
@@ -13,5 +14,7 @@ if($myage >=16) {
 }
 else {
     echo "You can buy anything you like.....";
-}
+} */
+
+echo "blarg";
 ?>
