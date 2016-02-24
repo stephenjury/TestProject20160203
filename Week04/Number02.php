@@ -10,6 +10,6 @@ if($myage >=18) {
 if($myage >=16) {
     echo "You can buy specs";
 }
-elseif
+else
     echo "You can buy anything you like.....";
 }
