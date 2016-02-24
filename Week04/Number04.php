@@ -1,5 +1,5 @@
 <?php
-$myArray=array("do", "re", "mi"); //Declares the array
+$myArray = array("do", "re", "mi"); //Declares the array
 
 echo $myArray[0] //outputs "do"
 
