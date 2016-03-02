@@ -4,7 +4,7 @@ include("connection.php"); //Establishing connection with our database
 
 if(empty($_POST["username"]) || empty($_POST["password"]))
 {
-    $echo = "Both fields are required.";
+    echo = "Both fields are required.";
 }else
 {
 
@@ -20,7 +20,7 @@ if(empty($_POST["username"]) || empty($_POST["password"]))
         header("location: home.php"); // Redirecting To another Page
     }else
     {
-        $echo "Incorrect username or password.";
+        echo "Incorrect username or password.";
         }
 }
 
