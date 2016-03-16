@@ -1,0 +1,20 @@
+ul
+{list-style-type: square;
+    color: green;}
+
+p99
+{content: "hi";}
+
+P1:before {
+    content: "Company is:  ";
+    display: inline;
+}
+P1:after {
+    content: "Steve is Still King for this second ONLY!! ";
+    display: inline;
+}
+
+P1:value {
+    content: "Steve is Still King!! ";
+    display: inline;
+}
