@@ -13,7 +13,8 @@
 </head>
 
 <body>
-	<centre><form method="post" action="">
+	<centre>
+	<form method="post" action="">
 		<fieldset>
 		<legend>Registration Form</legend>
 			<table width="400" border="0" cellpadding="10" cellspacing="10">
@@ -58,6 +59,7 @@
 				</tr>
 			</table>
 		</fieldset>
-	</form></centre>
+	</form>
+	</centre>
 </body>
 </html>
