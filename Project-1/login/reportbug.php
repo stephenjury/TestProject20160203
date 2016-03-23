@@ -52,7 +52,7 @@
 					<td height="23"></td>
 					<td>
 						<div align="right">
-				  		<input type="submit" name="submit" value="Register!" />
+				  		<input type="submit" name="submit" value="Report another Bug!" />
 						</div>
 					</td>
 				</tr>
@@ -60,7 +60,7 @@
 					<td height="23"></td>
 					<td>
 						<div align="right">
-							<a href="reporting.php"><input type="submit" name="submit" value="Moving On!" /></a>
+							<a href="url"><input type="submit" name="submit" value="Moving On 2!" /></a>
 						</div>
 					</td>
 				</tr>
