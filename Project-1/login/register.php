@@ -13,7 +13,6 @@
 </head>
 
 <body>
-	<centre>
 	<form method="post" action="">
 		<fieldset>
 		<legend>Registration Form</legend>
@@ -57,9 +56,17 @@
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td height="23"></td>
+					<td>
+						<div align="right">
+							<input type="submit" name="submit" value="Register!" />
+						</div>
+					</td>
+				</tr>
 			</table>
 		</fieldset>
 	</form>
-	</centre>
+
 </body>
 </html>
