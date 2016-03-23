@@ -67,7 +67,10 @@
 					<td height="23"></td>
 					<td>
 						<div align="right">
-							<a href="reporting.php"><input type="button" name="movingon" value="Moving On!" /></a>
+							<button onclick="reporting.php">
+								Moving On!
+							</button>
+							<!-- <a href="reporting.php"><input type="button" name="movingon" value="Moving On!" /></a> -->
 						</div>
 					</td>
 				</tr>
