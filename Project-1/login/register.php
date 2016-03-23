@@ -9,7 +9,7 @@
 <head>
 <meta charset="utf-8">
 <title>Registration Form</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="lookinggood.css">
 </head>
 
 <body>
@@ -60,7 +60,7 @@
 					<td height="23"></td>
 					<td>
 						<div align="right">
-							<a href="reporting.php"><input type="submit" name="submit" value="Moving On!" /></a>
+							<a href="reporting.php"><input type="button" name="submit" value="Moving On!" /></a>
 						</div>
 					</td>
 				</tr>
