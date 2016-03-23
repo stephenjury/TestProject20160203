@@ -6,13 +6,12 @@
 		header('Location: home.php');
 	}	
 ?>
-
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>PHP Login Form with Session</title>
-<link rel="stylesheet" href="../css/style.css" type="text/css" />
+<link rel="stylesheet" href="../css/lookinggood.css" type="text/css" />
 </head>
 
 <body>
