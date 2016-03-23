@@ -56,6 +56,13 @@
 						</div>
 					</td>
 				</tr>
+			</table>
+		</fieldset>
+	</form>
+	<form method="" action="">
+		<fieldset>
+			<legend>Registration Form2</legend>
+			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td height="23"></td>
 					<td>
