@@ -61,13 +61,13 @@
 	</form>
 	<form method="" action="">
 		<fieldset>
-			<legend>Registration Form2</legend>
+			<!-- <legend>Registration Form2</legend> -->
 			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td height="23"></td>
 					<td>
 						<div align="right">
-							<input type=button onClick="location.href='reporting.php'" value='click here'>
+							<input type=button onClick="location.href='reportbug.php'" value='click here'>
 							<!-- <a href="reporting.php"><input type="button" name="movingon" value="Moving On!" /></a> -->
 						</div>
 					</td>
