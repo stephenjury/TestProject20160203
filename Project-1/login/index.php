@@ -14,8 +14,6 @@
 <link rel="stylesheet" href="../css/lookinggood.css" type="text/css" />
 </head>
 
-
-
 <body>
 <div align="center">
 <h1 style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; font-size:32px;">PHP Login Form with Session</h1>
