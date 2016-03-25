@@ -73,7 +73,7 @@
 					<td height="23"></td>
 					<td>
 						<div align="right">
-				  		<input type="submit" name="submit" value="Report another Bug?" />
+				  		<input type="submit" name="submit" value="Submit Bug" />
 						</div>
 					</td>
 				</tr>
@@ -86,7 +86,7 @@
 				<tr>
 					<td height="23">
 						<div align="right">
-							<a href="index.html"><input type="submit" name="submit" value="Report Bug and Exit" /></a>
+							<a href="index.html"><input type="submit" name="submit" value="Logout" /></a>
 						</div>
 					</td>
 				</tr>
