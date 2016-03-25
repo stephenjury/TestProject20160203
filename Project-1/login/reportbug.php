@@ -86,11 +86,9 @@
 			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td height="23"></td>
-					<td>
 						<div align="right">
 							<a href="index.html"><input type="submit" name="submit" value="Exit" /></a>
 						</div>
-					</td>
 				</tr>
 			</table>
 		</fieldset>
