@@ -77,7 +77,7 @@
 					<td height="23"></td>
 					<td>
 						<div align="right">
-							<input type=button onClick="location.href='login.php'" value='Click here to Login'>
+							<input type=button onClick="location.href='login.php'" value='Click Here to Login'>
 							<!-- <a href="reporting.php"><input type="button" name="movingon" value="Moving On!" /></a> -->
 						</div>
 					</td>
