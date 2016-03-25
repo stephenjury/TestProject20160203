@@ -40,12 +40,22 @@
 				</tr>
 				<tr>
 					<td height="23" style="font-weight: bold">
-							<div align="right">
-								<label for="postDate">Posted</label>
-							</div>
+						<div align="right">
+							<label for="postDate">Posted</label>
+						</div>
 					</td>
 					<td>
-							<input name="postDate" type="date" class="input" size="25" required />
+						<input name="postDate" type="date" class="input" size="25" required />
+					</td>
+				</tr>
+				<tr>
+					<td height="23" style="font-weight: bold">
+						<div align="right">
+							<label for="fixDate">FixDatePosted</label>
+						</div>
+					</td>
+					<td>
+						<input name="fixDate" type="date" class="input" size="25" required />
 					</td>
 				</tr>
 				<tr>
