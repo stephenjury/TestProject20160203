@@ -1,21 +1,21 @@
 <?php
 
 	include("connection.php");
-	include("submit.php");
+	include("submit2.php");
 
 ?>
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Registration Form</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<title>Reporting Bug Form</title>
+<link rel="stylesheet" type="text/css" href="lookinggood.css">
 </head>
 
 <body>
 	<form method="post" action="">
 		<fieldset>
-		<legend>Registration Form</legend>
+		<legend>Reporting Bug Form</legend>
 			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td colspan="2" align="center" class="error"><?php echo $msg;?></td>
