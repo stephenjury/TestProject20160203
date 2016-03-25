@@ -31,11 +31,11 @@
 				<tr>
 					<td style="font-weight: bold">
 							<div align="right">
-									<label for="email">Email</label>
+									<label for="desc">Description</label>
 							</div>
 					</td>
 					<td>
-							<input name="email" type="email" class="input" size="25" required />
+							<input name="desc" type="text" class="input" size="50" maxlength="250" required />
 					</td>
 				</tr>
 				<tr>
