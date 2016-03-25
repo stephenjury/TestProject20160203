@@ -35,7 +35,7 @@
 							</div>
 					</td>
 					<td>
-							<input name="desc" type="text" class="input" size="50" maxlength="250" required />
+							<input name="desc" type="text" class="input" size="150" maxlength="250" required />
 					</td>
 				</tr>
 				<tr>
