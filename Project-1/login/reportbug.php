@@ -35,17 +35,17 @@
 							</div>
 					</td>
 					<td>
-							<input name="desc" type="text" class="input" size="150" maxlength="250" required />
+							<input name="desc" type="text" class="input" size="100" maxlength="400" required />
 					</td>
 				</tr>
 				<tr>
 					<td height="23" style="font-weight: bold">
 							<div align="right">
-								<label for="password">Password</label>
+								<label for="postDate">Date Posted</label>
 							</div>
 					</td>
 					<td>
-							<input name="password" type="password" class="input" size="25" required />
+							<input name="postDate" type="date" class="input" size="25" required />
 					</td>
 				</tr>
 				<tr>
