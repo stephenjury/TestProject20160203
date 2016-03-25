@@ -18,4 +18,6 @@ P1:value {
     content: "Steve is Still King!! ";
     display: inline;
 }
-div
+body {
+    background-color: yellow;
+}
