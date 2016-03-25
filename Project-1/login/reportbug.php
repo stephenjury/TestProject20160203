@@ -22,10 +22,10 @@
 				</tr>
 				<tr>
 					<td style="font-weight: bold">
-							<div align="right"><label for="name">Username</label></div>
+							<div align="right"><label for="title">Title</label></div>
 					</td>
 					<td>
-							<input name="name" type="text" class="input" size="25" required />
+							<input name="title" type="text" class="input" size="25" required />
 					</td>
 				</tr>
 				<tr>
