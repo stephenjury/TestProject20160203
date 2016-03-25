@@ -2,22 +2,27 @@
 $msg = "";
 if(isset($_POST["submit"]))
 {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $password = $_POST["password"];
+    $title = $_POST["title"];
+    $desc = $_POST["desc"];
+    $postDate = $_POST["postDate"];
+    $fixDate = $_POST["fixDate"];
 
-    $name = mysqli_real_escape_string($db, $name);
-    $email = mysqli_real_escape_string($db, $email);
-    $password = mysqli_real_escape_string($db, $password);
-    $password = md5($password);
+    $title = mysqli_real_escape_string($db, $title);
+    $desc = mysqli_real_escape_string($db, $desc);
+    $postDate = mysqli_real_escape_string($db, $postDate);
+    $fixDate = mysqli_real_escape_string($db, $fixDate);
 
 
-    $sql="SELECT email FROM users WHERE email='$email'";
+    $sql="SELECT title FROM bugs WHERE title='$title'";
     $result=mysqli_query($db,$sql);
     $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
     if(mysqli_num_rows($result) == 1)
     {
-        $msg = "Sorry...This email already exists...";
+        $speech = "'" ;
+        $email1 = $speech . $title . $speech;
+        $msg1 = "Sorry...This bug ";
+        $msg2 = " already exists...";
+        $msg = $msg1 . $email1 . $msg2;
     }
     else
     {
