@@ -66,7 +66,7 @@
 					</td>
 					<td>
 						<input type="checkbox" name="fixed" value="1" />
-						//<input name="fixed" type="boolean" class="input" size="25" required />
+						// <input name="fixed" type="boolean" class="input" size="25" required />
 					</td>
 				</tr>
 				<tr>
