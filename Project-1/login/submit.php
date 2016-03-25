@@ -25,13 +25,6 @@ if(isset($_POST["submit"]))
         $msg2 = " already exists...";
         $msg = $msg1 . $email1 . $msg2;
     }
-//    $a = "Hello ";
-//    $b = $a . "World!"; // now $b contains "Hello World!"
-//
-//    $a = "Hello ";
-//    $a .= "World!";     // now $a contains
-
-
 else
     {
         //echo $name." ".$email." ".$password;
