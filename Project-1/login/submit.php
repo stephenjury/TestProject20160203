@@ -19,9 +19,19 @@ if(isset($_POST["submit"]))
     $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
     if(mysqli_num_rows($result) == 1)
     {
-        $msg = "Sorry...This email already exists...";
+        $msg1 = "Sorry...This email ";
+        $msg2 = "already exists...";
+        $msg = "Sorry...This email ";
+        $msg = $msg1 . $email . $msg2;
     }
-    else
+//    $a = "Hello ";
+//    $b = $a . "World!"; // now $b contains "Hello World!"
+//
+//    $a = "Hello ";
+//    $a .= "World!";     // now $a contains
+
+
+else
     {
         //echo $name." ".$email." ".$password;
         $query = mysqli_query($db, "INSERT INTO users (username, email, password, phone)
