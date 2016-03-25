@@ -65,8 +65,8 @@
 						</div>
 					</td>
 					<td>
-						<input type="checkbox" name="fixed" value="1" />
-						<!-- <input name="fixed" type="text" class="input" size="5" /> -->
+						<!-- <input type="checkbox" name="fixed" value="1" /> -->
+						<input name="fixed" type="text" class="input" size="5" />
 					</td>
 				</tr>
 				<tr>
