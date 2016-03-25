@@ -66,22 +66,29 @@
 					</td>
 					<td>
 						<input type="checkbox" name="fixed" value="1" />
-						/* <input name="fixed" type="text" class="input" size="5" /> */
+						<!-- <input name="fixed" type="text" class="input" size="5" /> -->
 					</td>
 				</tr>
 				<tr>
 					<td height="23"></td>
 					<td>
 						<div align="right">
-				  		<input type="submit" name="submit" value="Report another Bug!" />
+				  		<input type="submit" name="submit" value="Report another Bug?" />
 						</div>
 					</td>
 				</tr>
+			</table>
+		</fieldset>
+	</form>
+	<form method="post" action="">
+		<fieldset>
+			<legend>Reporting Bug Form</legend>
+			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td height="23"></td>
 					<td>
 						<div align="right">
-							<a href="url"><input type="submit" name="submit" value="Moving On 2!" /></a>
+							<a href="index.html"><input type="submit" name="submit" value="Exit" /></a>
 						</div>
 					</td>
 				</tr>
