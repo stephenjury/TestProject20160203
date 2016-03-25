@@ -19,10 +19,10 @@ if(isset($_POST["submit"]))
     $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
     if(mysqli_num_rows($result) == 1)
     {
+        $email1 = """ . $email . """
         $msg1 = "Sorry...This email ";
-        $msg2 = "already exists...";
-        $msg = "Sorry...This email ";
-        $msg = $msg1 . $email . $msg2;
+        $msg2 = " already exists...";
+        $msg = $msg1 . $email1 . $msg2;
     }
 //    $a = "Hello ";
 //    $b = $a . "World!"; // now $b contains "Hello World!"
