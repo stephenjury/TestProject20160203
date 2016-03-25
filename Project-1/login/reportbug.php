@@ -85,10 +85,11 @@
 			<legend>Reporting Bug Form</legend>
 			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
-					<td height="23"></td>
+					<td height="23">
 						<div align="right">
 							<a href="index.html"><input type="submit" name="submit" value="Exit" /></a>
 						</div>
+					</td>
 				</tr>
 			</table>
 		</fieldset>
