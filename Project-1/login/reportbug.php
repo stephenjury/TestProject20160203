@@ -35,7 +35,7 @@
 							</div>
 					</td>
 					<td>
-							<input name="desc" type="text" class="input" size="100" maxlength="400" required />
+							<input name="desc" type="text" class="input" size="25" maxlength="400" required />
 					</td>
 				</tr>
 				<tr>
@@ -82,7 +82,6 @@
 	</form>
 	<form method="post" action="">
 		<fieldset>
-			<legend>Reporting Bug Form</legend>
 			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td height="23">
