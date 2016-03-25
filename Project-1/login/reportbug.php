@@ -86,7 +86,7 @@
 				<tr>
 					<td height="23">
 						<div align="right">
-							<a href="index.html"><input type="submit" name="submit" value="Exit" /></a>
+							<a href="index.html"><input type="submit" name="submit" value="Report Bug and Exit" /></a>
 						</div>
 					</td>
 				</tr>
