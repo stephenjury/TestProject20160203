@@ -41,7 +41,7 @@
 				<tr>
 					<td height="23" style="font-weight: bold">
 							<div align="right">
-								<label for="postDate">Date Posted</label>
+								<label for="postDate">"Date Posted"</label>
 							</div>
 					</td>
 					<td>
