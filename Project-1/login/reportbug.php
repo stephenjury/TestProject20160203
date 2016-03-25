@@ -41,7 +41,7 @@
 				<tr>
 					<td height="23" style="font-weight: bold">
 						<div align="right">
-							<label for="postDate">Posted</label>
+							<label for="postDate">PostedDate</label>
 						</div>
 					</td>
 					<td>
@@ -51,7 +51,7 @@
 				<tr>
 					<td height="23" style="font-weight: bold">
 						<div align="right">
-							<label for="fixDate">FixDatePosted</label>
+							<label for="fixDate">FixDate</label>
 						</div>
 					</td>
 					<td>
