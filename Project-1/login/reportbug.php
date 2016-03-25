@@ -59,6 +59,16 @@
 					</td>
 				</tr>
 				<tr>
+					<td height="23" style="font-weight: bold">
+						<div align="right">
+							<label for="fixed">Fixed</label>
+						</div>
+					</td>
+					<td>
+						<input name="fixed" type="boolean" class="input" size="25" required />
+					</td>
+				</tr>
+				<tr>
 					<td height="23"></td>
 					<td>
 						<div align="right">
