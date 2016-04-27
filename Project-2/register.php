@@ -18,13 +18,14 @@
 	<div class="formbox">
 		<h3>Registration Form</h3>
 		<br><br>
-		<form method="post" action="">
+		<form method="post" action="submit.php">
 			<label>Username:</label><br>
 			<input type="text" name="username" placeholder="username" required/><br><br>
 			<label>Email:</label><br>
 			<input type="email" name="email" placeholder="email" required />  <br><br>
 			<label>Password:</label><br>
-			<input type="password" name="password" placeholder="password" required/>  <br><br>
+			<input type="password" name="password" placeholder="password" required/>
+			<br><br>
 			<input type="submit" name="submit" value="Register!" />
 		</form>
 		<div class="error"><?php echo $msg;?></div>
