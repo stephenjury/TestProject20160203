@@ -14,10 +14,13 @@
 			$username=$_POST['username'];
 			$password=$_POST['password'];
 
+			//Clean Stuff
+			$clean_user_username=mysqli_real_escape_string($db,$username);
+			$clean_user_password=mysqli_real_escape_string($db,$password);
 
-			
+
 			//Check username and password from database
-			$sql="SELECT userID FROM users WHERE username='$username' and password='$password'";
+			$sql="SELECT userID FROM users WHERE username='$clean_user_username' and password='$clean_user_password'";
 			$result=mysqli_query($db,$sql);
 			$row=mysqli_fetch_array($result,MYSQLI_ASSOC) ;
 			
