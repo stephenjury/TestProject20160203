@@ -16,7 +16,7 @@ include("addcomment.php");
 
 <div class="main">
 
-<div class="form box">
+<div class="formbox">
     <form method="post" action="">
         <label>Comment:</label><br>
         <textarea name="desc" cols="40" rows="5"  ></textarea><br><br>
