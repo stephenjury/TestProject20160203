@@ -18,7 +18,7 @@ include("addcomment.php");
 
 <div class="formbox">
     <form method="post" action="">
-        <label>Comment:</label> <br>
+        <label>Comment:</label><br>
         <textarea name="desc" cols="40" rows="5"  ></textarea><br><br>
         <label>Photo:</label>
         <input type="text" name="photoID" value="<?php echo $_GET['id'] ?>" /><br><br>
