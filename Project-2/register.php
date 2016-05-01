@@ -24,7 +24,7 @@
 			<label>Email:</label><br>
 			<input type="email" name="email" placeholder="email" required />  <br><br>
 			<label>Password:</label><br>
-			<input type="password" name="password" placeholder="password" required autocomplete="off" />
+			<input type="password" name="password" placeholder="password" autocomplete="off" required/>
 			<br><br>
 			<input type="submit" name="submit" value="Register!" />
 		</form>
