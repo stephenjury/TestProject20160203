@@ -15,21 +15,6 @@ if(isset($_POST["submit"]))
     $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
     $uploadOk = 1;
 
-    //See if File Exists
-    //if (file_exists($target_file)) {echo "Sorry, file already exists.";
-    //$uploadOK=0;
-    //}
-
-    //Verify that it is a image
-    //if(isset($_POST["submit"])){
-   //     $xheck=etimagesize($_FILES["fileToUpload"]["temp_name"]);
-    //    if($check!==false){}
-    //}
-
-    //Types of image
-
-
-
     $sql="SELECT userID FROM users WHERE username='$name'";
     $result=mysqli_query($db,$sql);
     $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
