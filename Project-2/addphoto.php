@@ -55,7 +55,7 @@ if(isset($_POST["submit"]))
 
 
     if($uploadOk == 0){
-        $msg = "Sorry, your file was not uploaded."
+        $msg = "Sorry, your file was not uploaded.";
     }else {
         $sql = "SELECT userID FROM users WHERE username='$name'";
         $result = mysqli_query($db, $sql);
